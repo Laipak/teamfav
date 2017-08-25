@@ -1,0 +1,15 @@
+{
+    "name": "koderpillar/team",
+    "description": "",
+    "authors": [
+        {
+            "name": "Park",
+            "email": "park8lai@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Team\\": ""
+        }
+    }
+}
