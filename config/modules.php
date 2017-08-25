@@ -104,7 +104,7 @@ return [
             'seeder' => 'Database/Seeders',
             'controller' => 'Http/Controllers',
             'filter' => 'Http/Middleware',
-            // 'request' => 'Http/Requests',
+            'request' => 'Http/Requests',
             'provider' => 'Providers',
             'lang' => 'Resources/lang',
             'views' => 'Resources/views',

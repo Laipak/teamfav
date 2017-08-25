@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// For root entry points, please check Modules/Core/Http/routes.php
+
