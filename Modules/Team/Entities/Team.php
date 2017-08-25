@@ -16,6 +16,8 @@ class Team extends Model
         'nickname',
         'description',
         'races',
+        'state',
+        'area',
         'team_color_1',
         'team_color_2',
         'established_at',

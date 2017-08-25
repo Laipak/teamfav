@@ -19,6 +19,8 @@ class CreateTeamsTable extends Migration
             $table->string('nickname')->unique();
             $table->text('description')->nullable();
             $table->text('races')->nullable();
+            $table->integer('state');
+            $table->string('area')->nullable();
             $table->string('team_color_1')->nullable();
             $table->string('team_color_2')->nullable();
             $table->date('established_at')->nullable();
