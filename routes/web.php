@@ -11,5 +11,10 @@
 |
 */
 
-// For root entry points, please check Modules/Core/Http/routes.php
+/*
+	For root entry points, please check Modules/Core/Http/routes.php
+*/
 
+Route::get('/asd', function() {
+	return 'Hello';
+});

@@ -6,11 +6,10 @@
     "active": 1,
     "order": 0,
     "providers": [
-        "Modules\\Team\\Providers\\TeamServiceProvider"
+        "Modules\\Team\\Providers\\TeamServiceProvider",
+        "Modules\\Team\\Providers\\RouteServiceProvider"
     ],
     "aliases": {},
-    "files": [
-        "start.php"
-    ],
+    "files": [],
     "requires": []
 }
